@@ -18,7 +18,7 @@ Install pre-requsites:
 Install python dependencies:
 
 ```
-pip install
+pip install -r requirements.txt
 ```
 
 ## Usage

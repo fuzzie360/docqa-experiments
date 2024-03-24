@@ -16,8 +16,8 @@ parser = argparse.ArgumentParser(
     description='Ask questions about a PDF',
 )
 
-parser.add_argument('inputFile', required=True)
-parser.add_argument('question', required=True)
+parser.add_argument('inputFile')
+parser.add_argument('question')
 
 args = parser.parse_args()
 
